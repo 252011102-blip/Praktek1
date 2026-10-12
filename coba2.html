@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+    <table>
+        <tr>
+            <td>username</td>
+            <td><input type="text" name="txtuser" id="" placeholder="hanya huruf" pattern="[A-Za-z ]+"></td>
+        </tr>
+
+        <tr>
+            <td>password</td>
+            <td><input type="password" name="txtpass" id="" placeholder="min terserah" pattern="[A-Za-z0-9 ]+ {6,10}"></td>
+        </tr>
+
+        <tr>
+            <td>alamat</td>
+            <td><textarea name="txtalmt" id="" rows="4"></textarea></td>
+        </tr>
+
+        <tr>
+            <td>jenis kelamin</td>
+            <td><input type="radio" name="jkel" id="">pria <input type="radio" name="jkel" id="">wanita</td>
+        </tr>
+
+        <tr>
+            <td>jurusan</td>
+            <td><select name="txtjur" id="">
+                <optgroup label="FTD">
+                    <option value="TI">teknik informatika</option>
+                    <option value="SK">sistem komputer</option>
+                    <option value="DKV">Desain komunikasi visual</option>
+                </optgroup>
+                <optgroup label="FEB">
+                    <option value="AK">akuntansi</option>
+                    <option value="MAN">manajemen</option>
+                </optgroup>
+            </select></td>
+        </tr>
+             <td>tanggal</td>
+             <td><input type="date" name="txttgl" id=""></td>
+        <tr>            
+        </tr>
+             <td></td>
+             <td><input type="submit" value="kirim" name="cmdkirim"><input type="reset" value="batal" name="cmdbatal"></td>
+    </table>
+    </form>   
+</body>
+</html>
