@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CanaryNest | Jual Beli Burung Kenari</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container">
+        Kicau ceria dimulai dari perawatan yang tepat • Pengiriman aman ke kota pilihan
+      </div>
+    </div>
+
+    <header class="container navwrap">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">🐤</span> Canary<span style="color: #79a85d">Nest</span>
+      </a>
+      <button class="menu-btn" aria-label="Buka menu" onclick="toggleMenu()">☰</button>
+      <nav class="nav" id="mainNav">
+        <a href="index.html">Beranda</a>
+        <a href="katalog.html">Katalog</a>
+        <a href="panduan.html">Panduan</a>
+        <a href="tentang.html">Tentang</a>
+        <a class="btn" href="pemesanan.html">Pesan sekarang</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div>
+          <div class="eyebrow">Marketplace burung kenari</div>
+          <h1>Temukan kicauan indah untuk menemani harimu.</h1>
+          <p>
+            Belanja burung kenari pilihan dengan informasi usia, karakter, dan perawatan yang jelas.
+            Kami membantu calon pemilik memilih kenari yang sehat dan sesuai kebutuhan.
+          </p>
+          <a class="btn" href="katalog.html">Lihat katalog kenari</a>
+          <a class="btn light" href="panduan.html">Tips merawat</a>
+        </div>
+        <div class="hero-art">
+          <img src="gambar/bertengger.jpg" alt="Burung kenari Yorkshire kuning bertengger di dahan">
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Pilihan CanaryNest</div>
+            <h2>Kenari unggulan minggu ini</h2>
+            <p class="muted">Pilihan dengan profil dan kisaran harga yang transparan.</p>
+          </div>
+          <a href="katalog.html">Semua produk →</a>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <img class="crop-top" src="gambar/yorkshire.jpg" alt="Kenari Yorkshire kuning">
+            <div class="card-body">
+              <span class="tag">Favorit</span>
+              <h3>Kenari Yorkshire Kuning</h3>
+              <p class="muted">Postur tegap, warna cerah, cocok untuk penghobi.</p>
+              <div class="card-foot">
+                <span class="price">Rp850.000</span>
+                <a href="pemesanan.html" class="btn">Pesan</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="gambar/merahlokal.jpg" alt="Kenari merah lokal">
+            <div class="card-body">
+              <span class="tag">Warna eksotis</span>
+              <h3>Kenari Merah Lokal</h3>
+              <p class="muted">Warna merah-oranye dengan perawatan harian teratur.</p>
+              <div class="card-foot">
+                <span class="price">Rp450.000</span>
+                <a href="pemesanan.html" class="btn">Pesan</a>
+              </div>
+            </div>
+          </article>
+          <article class="card">
+            <img src="gambar/putih.jpg" alt="Kenari putih">
+            <div class="card-body">
+              <span class="tag">Pemula</span>
+              <h3>Kenari Putih</h3>
+              <p class="muted">Tampilan bersih dan karakter yang menarik diamati.</p>
+              <div class="card-foot">
+                <span class="price">Rp500.000</span>
+                <a href="pemesanan.html" class="btn">Pesan</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Kenali pilihan</div>
+            <h2>Kenari punya pesonanya sendiri</h2>
+          </div>
+        </div>
+        <div class="carousel">
+          <div class="slides">
+            <div class="slide">
+              <div>
+                <span class="tag">01 · Kuning</span>
+                <h3>Warna cerah, kicauan merdu</h3>
+                <p>
+                  Kenari kuning menjadi pilihan populer. Pastikan burung aktif, bulu rapi, dan
+                  memiliki nafsu makan baik.
+                </p>
+                <a class="btn" href="katalog.html">Jelajahi kenari</a>
+              </div>
+              <img src="gambar/kuning.jpg" alt="Kenari kuning">
+            </div>
+            <div class="slide">
+              <div>
+                <span class="tag">02 · Merah</span>
+                <h3>Karakter warna yang kuat</h3>
+                <p>
+                  Kenari merah menarik bagi penghobi yang menyukai variasi warna. Jaga pola pakan
+                  dan kebersihan kandang.
+                </p>
+                <a class="btn" href="panduan.html">Baca panduan</a>
+              </div>
+              <img src="gambar/merah.jpg" alt="Kenari merah">
+            </div>
+            <div class="slide">
+              <div>
+                <span class="tag">03 · Putih</span>
+                <h3>Tampilan bersih dan elegan</h3>
+                <p>
+                  Kenari putih cocok untuk dinikmati keindahan tampilannya. Berikan lingkungan
+                  tenang dan sirkulasi udara baik.
+                </p>
+                <a class="btn" href="pemesanan.html">Tanya ketersediaan</a>
+              </div>
+              <img src="gambar/putih.jpg" alt="Kenari putih">
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button class="circle-btn" data-prev aria-label="Slide sebelumnya">‹</button>
+            <button class="circle-btn" data-next aria-label="Slide berikutnya">›</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="banner">
+          <div>
+            <h2>Sudah menemukan kenari pilihanmu?</h2>
+            <p>
+              Isi formulir pemesanan, lalu tim kami akan menghubungi untuk konfirmasi stok dan
+              pengiriman.
+            </p>
+          </div>
+          <a class="btn light" href="pemesanan.html">Isi formulir pesanan →</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand" style="color: white">🐤 CanaryNest</div>
+          <p>Teman menemukan kenari sehat dan terawat.</p>
+        </div>
+        <div>
+          <strong>Jelajahi</strong>
+          <p>
+            <a href="katalog.html">Katalog kenari</a> ·
+            <a href="panduan.html">Panduan perawatan</a>
+          </p>
+          <p><a href="pemesanan.html">Formulir pemesanan</a></p>
+        </div>
+        <div>
+          <strong>Hubungi kami</strong>
+          <p>WhatsApp: 0813-3300-1234</p>
+          <p>Email: halo@canarynest.id</p>
+        </div>
+      </div>
+      <div
+        class="container"
+        style="border-top: 1px solid #ffffff22; margin-top: 25px; padding-top: 15px; font-size: 0.85rem; color: #b9cdbd"
+      >
+        © 2026 CanaryNest · Informasi harga dan stok dapat berubah.
+      </div>
+    </footer>
+    <script src="assets/site.js"></script>
+  </body>
+</html>
